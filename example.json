@@ -1,0 +1,63 @@
+{
+  "rooms": [
+    {
+      "id": "start",
+      "description": "start room",
+      "items": [
+        "an item"
+      ],
+      "points": 0,
+      "exits": [
+        {
+          "direction": "south",
+          "room": "first",
+          "unlock_item": null
+        }
+      ],
+      "treasure": []
+    },
+    {
+      "id": "first",
+      "description": "first room",
+      "items": [
+        "item1"
+      ],
+      "points": 3,
+      "exits": [
+        {
+          "direction": "east",
+          "room": "room 2",
+          "unlock_item": null
+        }
+      ],
+      "treasure": []
+    },
+    {
+      "id": "room 2",
+      "description": "the second room",
+      "items": [
+        "item2"
+      ],
+      "points": 3,
+      "exits": [
+      ],
+      "treasure": []
+    }
+  ],
+  "start_room": "start",
+  "items": [
+    {
+      "id": "item1",
+      "description": "descr",
+      "points": 10,
+      "trs_msg": ""
+    },
+    {
+      "id": "first",
+      "description": "the first",
+      "points": 10,
+      "trs_msg": ""
+    }
+  ],
+  "start_items": []
+}
